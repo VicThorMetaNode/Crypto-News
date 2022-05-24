@@ -1,6 +1,6 @@
 # React Api Project
 Crypto prices & News **APi management** using **Redux** & **RapidApi** 
-> This project has evolved during march 2022 and is based on another PHP-SaSS project
+> This project has evolved during march 2022 and is based on another PHP-SaSS project https://bit.ly/3PQEvA3
 <p>🧰Tools used:</p>
 <p>🗹 Redux</p>
 <p>🗹 RapidApi</p>
