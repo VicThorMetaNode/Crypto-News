@@ -1,7 +1,7 @@
 # Crypto News Platform api
 Crypto prices & News **APi management** using **REDUX** - **REACT** - **ANTDESIGN** & **RapidApi** 
-> **Deployed**: **March 2022 & March 2023** : https://cryptosucks.vercel.app/
-![helloBNBworld](https://user-images.githubusercontent.com/98230162/166435459-9fb5f7a5-8445-44ac-9925-ef68e0f4f329.jpg)
+> **Deployed on Vercel**: **March 2022 & March 2023** : https://cryptosucks.vercel.app/
+![cryptosucksz](https://user-images.githubusercontent.com/98230162/229124519-24c7ef91-16dd-47c0-ab5e-a1094e44ab3e.PNG)
 <p>🧰Tools used:</p>
 <p>🗹 Redux</p>
 <p>🗹 RapidApi</p>
