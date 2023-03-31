@@ -1,15 +1,19 @@
-import React, {useEffect, useState} from 'react'
+import React, { useEffect, useState } from "react";
 
 //IMPORT FROM ANT DESIGN
-import { Button, Menu, Typography, Avatar } from 'antd'
-import { HomeOutlined, MoneyCollectOutlined, BulbOutlined, FundOutlined, MenuOutlined } from '@ant-design/icons'
+import { Button, Menu, Typography, Avatar } from "antd";
+import {
+  HomeOutlined,
+  BulbOutlined,
+  FundOutlined,
+  MenuOutlined,
+} from "@ant-design/icons";
 
 //IMPORT FROM ROUTER
-import { Link } from 'react-router-dom'
+import { Link } from "react-router-dom";
 
 //IMPORT FROM IMAGES
-import icon from '../components/img/cryptocurrency.png'
-
+import icon from "../components/img/avatar.png";
 
 //TOGGLE NAVBAR MENU
 const Navbar = () => {
@@ -19,11 +23,11 @@ const Navbar = () => {
   useEffect(() => {
     const handleResize = () => setScreenSize(window.innerWidth);
 
-    window.addEventListener('resize', handleResize);
+    window.addEventListener("resize", handleResize);
 
     handleResize();
 
-    return () => window.removeEventListener('resize', handleResize);
+    return () => window.removeEventListener("resize", handleResize);
   }, []);
 
   useEffect(() => {
@@ -34,40 +38,42 @@ const Navbar = () => {
     }
   }, [screenSize]);
 
-
   return (
-    <div className='nav-container'>
-        <div className='logo-container'>
-            <Avatar src={icon} size="large" />
-            <Typography.Title level={2} className='logo'>
-                <Link to="/">helloBNBworld</Link>
-            </Typography.Title>
+    <div className="nav-container">
+      <div className="logo-container">
+        <Avatar src={icon} size="large" />
+        <Typography.Title level={2} className="logo">
+          <Link to="/">CryptoSucks</Link>
+        </Typography.Title>
 
- <Button className="menu-control-container" onClick={() => setActiveMenu(!activeMenu)}><MenuOutlined /></Button>
-        </div>
-        {activeMenu && (
-    <Menu theme="dark">
+        <Button
+          className="menu-control-container"
+          onClick={() => setActiveMenu(!activeMenu)}
+        >
+          <MenuOutlined />
+        </Button>
+      </div>
+      {activeMenu && (
+        <Menu theme="dark">
+          <Menu.Item icon={<HomeOutlined />}>
+            <Link to="/">Home</Link>
+          </Menu.Item>
 
-      <Menu.Item icon={<HomeOutlined />}>
-        <Link to="/">Home</Link>
-     </Menu.Item>
+          <Menu.Item icon={<FundOutlined />}>
+            <Link to="/cryptocurrencies">Cryptocurrencies</Link>
+          </Menu.Item>
 
-     <Menu.Item icon={<FundOutlined />}>
-       <Link to="/cryptocurrencies">Cryptocurrencies</Link>
-     </Menu.Item>
-
-     {/* <Menu.Item icon={<MoneyCollectOutlined />}>
+          {/* <Menu.Item icon={<MoneyCollectOutlined />}>
        <Link to="/exchanges">Xchange</Link>
      </Menu.Item> */}
 
-     <Menu.Item icon={<BulbOutlined />}>
-       <Link to="/news">Hot News</Link>
-     </Menu.Item>
-
-    </Menu>
-    )}   
+          <Menu.Item icon={<BulbOutlined />}>
+            <Link to="/news">Hot News</Link>
+          </Menu.Item>
+        </Menu>
+      )}
     </div>
   );
-}
+};
 
-export default Navbar
+export default Navbar;
