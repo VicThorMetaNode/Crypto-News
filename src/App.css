@@ -249,7 +249,7 @@ body {
 
      
 .menu-control-container{
-    background-color: var(--color-black-x) !important;
+    background-color: transparent !important;
     color: var(--color-soap) !important;
     display: none !important;
     position: absolute !important;
@@ -257,6 +257,7 @@ body {
     top: 25px !important;
     font-size: 1.2rem !important;
     border: none !important;
+    
 }
 
 .loader{
@@ -322,7 +323,9 @@ body {
         right: 0px;
     }
     .home-title{
+        
         font-size: 1.4rem !important;
+        
     }
     .show-more{
         font-size: 1.3rem !important;

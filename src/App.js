@@ -36,7 +36,7 @@ const App = () => {
         No rights reserved
       </Typography.Title>
       <Typography.Text level={2} style={{ color: 'white', textAlign:'center' }}>
-        we use no trackers, no data collection or other intrusive devices.
+      We don't track you, collect your data, or use any other snoopy gadgets. It's just us, keeping it cool, clean, and carefree!
       </Typography.Text>
       <Space>
         <Link to='/'>Home</Link>
