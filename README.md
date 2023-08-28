@@ -3,7 +3,9 @@ Crypto prices & News **APi management** using **REDUX** - **REACT** - **ANTDESIG
 <p>This project marks one of my initial ventures of this type, now available on my GitHub repository. It involves an API for crypto listings and news aggregation from two sources, implemented with Redux. The user interface was crafted using Antdesign. Recently, I've launched an updated version of this project, incorporating cutting-edge technologies such as Astro, TypeScript, and Tailwind. This represents a more sustainable coding approach in 2023.</p>
 <p> **Deployed on Vercel**: **March 2022 & March 2023** : https://cryptosucks.vercel.app/</p>
 <p>**New version on Netlify**: **August 2023** : [https://cryptosucks.vercel.app/](https://cryptosucksagain.netlify.app/)</p>
-![cruptosucks0ne](https://github.com/VicThorMetaNode/Crypto-News/assets/98230162/618cf1d1-e50e-4132-a609-ccb61336f148)
+
+![cruptosucks0ne](https://github.com/VicThorMetaNode/Crypto-News/assets/98230162/745c4b47-9137-417d-a33b-8dff0432cfd6)
+
 <p>🧰Tools used:</p>
 <p>🗹 Redux</p>
 <p>🗹 RapidApi</p>
